@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SnapKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -15,7 +16,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = ViewController()
+        let viewController = ArtViewController()
+        let navigationController = UINavigationController(rootViewController: viewController)
+        UINavigationBar.appearance().tintColor = .white
+        window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
         
     }
