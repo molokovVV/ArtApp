@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		048663192B7CE21A00C1C430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048663182B7CE21A00C1C430 /* AppDelegate.swift */; };
 		0486631B2B7CE21A00C1C430 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486631A2B7CE21A00C1C430 /* SceneDelegate.swift */; };
-		0486631D2B7CE21A00C1C430 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486631C2B7CE21A00C1C430 /* ViewController.swift */; };
-		048663202B7CE21A00C1C430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0486631E2B7CE21A00C1C430 /* Main.storyboard */; };
+		0486631D2B7CE21A00C1C430 /* ArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486631C2B7CE21A00C1C430 /* ArtViewController.swift */; };
 		048663222B7CE21C00C1C430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048663212B7CE21C00C1C430 /* Assets.xcassets */; };
 		048663252B7CE21C00C1C430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048663232B7CE21C00C1C430 /* LaunchScreen.storyboard */; };
+		0486632D2B7CE9B700C1C430 /* ArtTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486632C2B7CE9B700C1C430 /* ArtTableViewCell.swift */; };
+		048663302B7CF83100C1C430 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0486632F2B7CF83100C1C430 /* SnapKit */; };
+		048663322B7CF83100C1C430 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 048663312B7CF83100C1C430 /* SnapKit-Dynamic */; };
+		048663342B7CF85200C1C430 /* ArtModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048663332B7CF85200C1C430 /* ArtModel.swift */; };
+		048663362B7CF87B00C1C430 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048663352B7CF87B00C1C430 /* DataManager.swift */; };
+		048663382B7CFF6D00C1C430 /* ArtDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048663372B7CFF6D00C1C430 /* ArtDetailViewController.swift */; };
+		0486633A2B7D034300C1C430 /* artists.json in Resources */ = {isa = PBXBuildFile; fileRef = 048663392B7D034300C1C430 /* artists.json */; };
+		0486633E2B7E15FC00C1C430 /* ArtViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486633D2B7E15FC00C1C430 /* ArtViewController+Ext.swift */; };
+		048663402B7E187900C1C430 /* ArtDetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486633F2B7E187900C1C430 /* ArtDetailViewCell.swift */; };
+		048663432B7E25B700C1C430 /* FullScreenImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048663422B7E25B700C1C430 /* FullScreenImageViewController.swift */; };
+		048663452B7EA8F900C1C430 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048663442B7EA8F900C1C430 /* SearchResultViewController.swift */; };
+		04D226172B81E5EF00C98A06 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D226162B81E5EF00C98A06 /* UICollectionView+Ext.swift */; };
+		04D226192B81E66100C98A06 /* ArtDetailViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D226182B81E66100C98A06 /* ArtDetailViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		048663152B7CE21A00C1C430 /* ArtApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048663182B7CE21A00C1C430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0486631A2B7CE21A00C1C430 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0486631C2B7CE21A00C1C430 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0486631F2B7CE21A00C1C430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0486631C2B7CE21A00C1C430 /* ArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtViewController.swift; sourceTree = "<group>"; };
 		048663212B7CE21C00C1C430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048663242B7CE21C00C1C430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048663262B7CE21C00C1C430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0486632C2B7CE9B700C1C430 /* ArtTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtTableViewCell.swift; sourceTree = "<group>"; };
+		048663332B7CF85200C1C430 /* ArtModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtModel.swift; sourceTree = "<group>"; };
+		048663352B7CF87B00C1C430 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		048663372B7CFF6D00C1C430 /* ArtDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtDetailViewController.swift; sourceTree = "<group>"; };
+		048663392B7D034300C1C430 /* artists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = artists.json; sourceTree = "<group>"; };
+		0486633D2B7E15FC00C1C430 /* ArtViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArtViewController+Ext.swift"; sourceTree = "<group>"; };
+		0486633F2B7E187900C1C430 /* ArtDetailViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtDetailViewCell.swift; sourceTree = "<group>"; };
+		048663422B7E25B700C1C430 /* FullScreenImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenImageViewController.swift; sourceTree = "<group>"; };
+		048663442B7EA8F900C1C430 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		04D226162B81E5EF00C98A06 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
+		04D226182B81E66100C98A06 /* ArtDetailViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArtDetailViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048663302B7CF83100C1C430 /* SnapKit in Frameworks */,
+				048663322B7CF83100C1C430 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +80,105 @@
 		048663172B7CE21A00C1C430 /* ArtApp */ = {
 			isa = PBXGroup;
 			children = (
-				048663182B7CE21A00C1C430 /* AppDelegate.swift */,
-				0486631A2B7CE21A00C1C430 /* SceneDelegate.swift */,
-				0486631C2B7CE21A00C1C430 /* ViewController.swift */,
-				0486631E2B7CE21A00C1C430 /* Main.storyboard */,
-				048663212B7CE21C00C1C430 /* Assets.xcassets */,
-				048663232B7CE21C00C1C430 /* LaunchScreen.storyboard */,
-				048663262B7CE21C00C1C430 /* Info.plist */,
+				04D2261B2B81E6E600C98A06 /* Sources */,
+				04D2261A2B81E6DD00C98A06 /* Resources */,
 			);
 			path = ArtApp;
+			sourceTree = "<group>";
+		};
+		04D2261A2B81E6DD00C98A06 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04D2261D2B81E7FB00C98A06 /* Storyboard */,
+				048663392B7D034300C1C430 /* artists.json */,
+				048663212B7CE21C00C1C430 /* Assets.xcassets */,
+				04D2261C2B81E70000C98A06 /* Configuration */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04D2261B2B81E6E600C98A06 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				04D226242B81E9C000C98A06 /* CustomCell */,
+				04D226222B81E92900C98A06 /* Services */,
+				04D226212B81E8DB00C98A06 /* Extensions */,
+				04D226202B81E8BF00C98A06 /* Scenes */,
+				04D2261F2B81E87B00C98A06 /* Model */,
+				04D2261E2B81E82700C98A06 /* App */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		04D2261C2B81E70000C98A06 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				048663262B7CE21C00C1C430 /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		04D2261D2B81E7FB00C98A06 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				048663232B7CE21C00C1C430 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		04D2261E2B81E82700C98A06 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0486631A2B7CE21A00C1C430 /* SceneDelegate.swift */,
+				048663182B7CE21A00C1C430 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		04D2261F2B81E87B00C98A06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				048663332B7CF85200C1C430 /* ArtModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04D226202B81E8BF00C98A06 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0486631C2B7CE21A00C1C430 /* ArtViewController.swift */,
+				048663372B7CFF6D00C1C430 /* ArtDetailViewController.swift */,
+				048663422B7E25B700C1C430 /* FullScreenImageViewController.swift */,
+				048663442B7EA8F900C1C430 /* SearchResultViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		04D226212B81E8DB00C98A06 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0486633D2B7E15FC00C1C430 /* ArtViewController+Ext.swift */,
+				04D226182B81E66100C98A06 /* ArtDetailViewController+Ext.swift */,
+				04D226162B81E5EF00C98A06 /* UICollectionView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04D226222B81E92900C98A06 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				048663352B7CF87B00C1C430 /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		04D226242B81E9C000C98A06 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				0486633F2B7E187900C1C430 /* ArtDetailViewCell.swift */,
+				0486632C2B7CE9B700C1C430 /* ArtTableViewCell.swift */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +197,10 @@
 			dependencies = (
 			);
 			name = ArtApp;
+			packageProductDependencies = (
+				0486632F2B7CF83100C1C430 /* SnapKit */,
+				048663312B7CF83100C1C430 /* SnapKit-Dynamic */,
+			);
 			productName = ArtApp;
 			productReference = 048663152B7CE21A00C1C430 /* ArtApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +229,9 @@
 				Base,
 			);
 			mainGroup = 0486630C2B7CE21A00C1C430;
+			packageReferences = (
+				0486632E2B7CF83100C1C430 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 048663162B7CE21A00C1C430 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				048663252B7CE21C00C1C430 /* LaunchScreen.storyboard in Resources */,
+				0486633A2B7D034300C1C430 /* artists.json in Resources */,
 				048663222B7CE21C00C1C430 /* Assets.xcassets in Resources */,
-				048663202B7CE21A00C1C430 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +259,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0486631D2B7CE21A00C1C430 /* ViewController.swift in Sources */,
+				0486633E2B7E15FC00C1C430 /* ArtViewController+Ext.swift in Sources */,
+				048663402B7E187900C1C430 /* ArtDetailViewCell.swift in Sources */,
+				0486631D2B7CE21A00C1C430 /* ArtViewController.swift in Sources */,
+				048663432B7E25B700C1C430 /* FullScreenImageViewController.swift in Sources */,
+				048663362B7CF87B00C1C430 /* DataManager.swift in Sources */,
+				04D226192B81E66100C98A06 /* ArtDetailViewController+Ext.swift in Sources */,
+				048663382B7CFF6D00C1C430 /* ArtDetailViewController.swift in Sources */,
 				048663192B7CE21A00C1C430 /* AppDelegate.swift in Sources */,
+				048663342B7CF85200C1C430 /* ArtModel.swift in Sources */,
+				048663452B7EA8F900C1C430 /* SearchResultViewController.swift in Sources */,
 				0486631B2B7CE21A00C1C430 /* SceneDelegate.swift in Sources */,
+				04D226172B81E5EF00C98A06 /* UICollectionView+Ext.swift in Sources */,
+				0486632D2B7CE9B700C1C430 /* ArtTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0486631E2B7CE21A00C1C430 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0486631F2B7CE21A00C1C430 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		048663232B7CE21C00C1C430 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,10 +417,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TBKRN76F6S;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ArtApp/Info.plist;
+				INFOPLIST_FILE = ArtApp/Resources/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,10 +444,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TBKRN76F6S;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ArtApp/Info.plist;
+				INFOPLIST_FILE = ArtApp/Resources/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +484,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0486632E2B7CF83100C1C430 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0486632F2B7CF83100C1C430 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0486632E2B7CF83100C1C430 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		048663312B7CF83100C1C430 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0486632E2B7CF83100C1C430 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0486630D2B7CE21A00C1C430 /* Project object */;
 }
